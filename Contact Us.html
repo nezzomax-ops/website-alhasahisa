@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا - الحصاحيصا</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #fef5e7; color: #2d3e2b; }
+        .container { max-width: 1100px; margin: auto; padding: 20px; }
+        header { background: #2c5e2a; color: white; padding: 20px 0; text-align: center; }
+        nav { display: flex; justify-content: center; gap: 25px; flex-wrap: wrap; margin-top: 15px; }
+        nav a { color: white; text-decoration: none; font-weight: bold; padding: 8px 18px; border-radius: 30px; }
+        nav a:hover { background: #f4a261; color: #2d3e2b; }
+        .contact-flex { display: flex; flex-wrap: wrap; gap: 30px; margin: 40px 0; }
+        .contact-info, .contact-form { background: white; border-radius: 25px; padding: 25px; flex: 1; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        h2 { color: #2c5e2a; margin-bottom: 20px; border-right: 5px solid #f4a261; padding-right: 12px; }
+        input, textarea { width: 100%; padding: 12px; margin: 8px 0 20px; border: 1px solid #ccc; border-radius: 30px; font-family: inherit; }
+        button { background: #2c5e2a; color: white; padding: 12px 25px; border: none; border-radius: 40px; font-size: 1rem; cursor: pointer; transition: 0.3s; }
+        button:hover { background: #f4a261; color: #2d3e2b; }
+        .info-detail p { margin: 15px 0; }
+        footer { background: #1c3b1a; color: #ddd; text-align: center; padding: 20px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📞 تواصل معنا</h1>
+            <nav><a href="index.html">الرئيسية</a><a href="about.html">عن المنطقة</a><a href="landmarks.html">المعالم</a><a href="contact.html">اتصل بنا</a></nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="contact-flex">
+            <div class="contact-info">
+                <h2>معلومات التواصل</h2>
+                <div class="info-detail">
+                    <p>📍 العنوان: مدينة الحصاحيصا، ولاية الجزيرة، السودان - بجوار الاستاد البلدي</p>
+                    <p>📞 هاتف: +249 123 456 789</p>
+                    <p>✉️ البريد الإلكتروني: info@alhasahisa.gov.sd</p>
+                    <p>🕒 ساعات العمل: من الأحد إلى الخميس 9 ص - 3 م</p>
+                    <p>🌐 تابعونا على: <strong>فيسبوك | تويتر | إنستغرام</strong> (باسم "الحصاحيصا أونلاين")</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h2>أرسل رسالة</h2>
+                <form action="#" method="post">
+                    <input type="text" placeholder="الاسم الكامل" required>
+                    <input type="email" placeholder="البريد الإلكتروني" required>
+                    <input type="text" placeholder="الموضوع">
+                    <textarea rows="5" placeholder="نص الرسالة..."></textarea>
+                    <button type="submit">إرسال</button>
+                </form>
+                <p style="font-size: 0.8rem; margin-top: 15px;">* لن يتم نشر بريدك الإلكتروني، وسيتم الرد عليك خلال 48 ساعة.</p>
+            </div>
+        </div>
+    </div>
+    <footer><p>© 2025 - الحصاحيصا تسمع صوتك. تواصل مع إدارة الموقع</p></footer>
+</body>
+</html>
